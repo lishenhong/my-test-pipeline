@@ -1,1 +1,21 @@
+name: dingding-robot
+version: '1.0'
+type: action
+displayName: 钉钉机器人
+category: data_management
+desc: 给指定的钉钉群发送消息
+public: true
+supportedVersions:
+  - ">= 4.0"
+params:
+  - name: Msg
+    desc: 用户发送的信息
+    required: true
+  - name: Token
+    desc: 机器人的Token
+    type: string
+    required: true
+  - name: Keyword
+    desc: 机器人的关键词
+    required: true
 
